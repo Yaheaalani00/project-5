@@ -1,10 +1,9 @@
-import Button from "react-bootstrap/Button";
-import logo from './logo.svg';
-import './App.css';
+import styles from "./App.module.css";
+import NavBar from "./components/NavBar"
 
 function App() {
   return (
-    <div className="App">
+    <div className={styles.App}>
         <Button variant="primary">Primary</Button>
     </div>
   );
